@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "npm rebuild"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
