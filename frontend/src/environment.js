@@ -1,5 +1,8 @@
-// environment.js
+let IS_PROD = true;
+const server = IS_PROD ?
+    "https://zoom-clone-dka8.onrender.com" :
 
-const server = "http://localhost:8000";
+    "http://localhost:8000"
+
 
 export default server;
